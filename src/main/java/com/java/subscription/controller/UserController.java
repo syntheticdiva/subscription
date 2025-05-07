@@ -1,6 +1,6 @@
 package com.java.subscription.controller;
 
-import com.java.subscription.dto.ErrorResponse;
+import com.java.subscription.exception.ErrorResponse;
 import com.java.subscription.dto.UserRequest;
 import com.java.subscription.entity.User;
 import com.java.subscription.service.UserService;

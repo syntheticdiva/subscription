@@ -1,10 +1,9 @@
 package com.java.subscription.controller;
 
-import com.java.subscription.dto.ErrorResponse;
+import com.java.subscription.exception.ErrorResponse;
 import com.java.subscription.dto.SubscriptionRequest;
 import com.java.subscription.dto.SubscriptionResponse;
 import com.java.subscription.dto.TopSubscriptionResponse;
-import com.java.subscription.entity.Subscription;
 import com.java.subscription.service.SubscriptionService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
